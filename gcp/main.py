@@ -10,7 +10,7 @@ output_index = None
 
 class_names = ["Early Blight", "Late Blight", "Healthy"]
 
-BUCKET_NAME = "potatos-disease-classification-natcha"
+BUCKET_NAME = "My-bucket-name"
 
 
 def download_blob(bucket_name, source_blob_name, destination_file_name):
